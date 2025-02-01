@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
 
   // Send the response body as "Hello, World!"
-  res.end("Hello, World!\n");
+  res.end("Hello, teamwork!\n");
 });
 
 // Listen on port 3000, IP defaults to 127.0.0.1
