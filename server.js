@@ -9,8 +9,8 @@ const server = express()
 server.use(cors());
 server.use(express.json());
 
-server.use("/api", welcomeRouter);
-server.use("/api/tasks", taskRouter);
+server.use("/", welcomeRouter);
+server.use("/tasks", taskRouter);
 
 
 module.exports = server
